@@ -1,0 +1,446 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_40720ba250453167cc5060df5178125f {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+
+            <style>html, body {
+                width: 100%;
+                height: 100%;
+                margin: 0;
+                padding: 0;
+            }
+            </style>
+
+            <style>#map {
+                position:absolute;
+                top:0;
+                bottom:0;
+                right:0;
+                left:0;
+                }
+            </style>
+
+            <script>
+                L_NO_TOUCH = false;
+                L_DISABLE_3D = false;
+            </script>
+
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_40720ba250453167cc5060df5178125f" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_40720ba250453167cc5060df5178125f = L.map(
+                "map_40720ba250453167cc5060df5178125f",
+                {
+                    center: [40.0, -3.0],
+                    crs: L.CRS.EPSG3857,
+                    ...{
+  "zoom": 5,
+  "zoomControl": true,
+  "preferCanvas": false,
+}
+
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_9d8596b4f11eb092d281bb3c958b8f95 = L.tileLayer(
+                "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {
+  "minZoom": 0,
+  "maxZoom": 19,
+  "maxNativeZoom": 19,
+  "noWrap": false,
+  "attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors",
+  "subdomains": "abc",
+  "detectRetina": false,
+  "tms": false,
+  "opacity": 1,
+}
+
+            );
+        
+    
+            tile_layer_9d8596b4f11eb092d281bb3c958b8f95.addTo(map_40720ba250453167cc5060df5178125f);
+        
+    
+            var circle_marker_b327ac9080f4bf8dbec0cfc67bfb81cb = L.circleMarker(
+                [37.1781, -3.6008],
+                {"bubblingMouseEvents": true, "color": "yellow", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "yellow", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_40720ba250453167cc5060df5178125f);
+        
+    
+        var popup_1471df85383291ed3513c89d7011fce8 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_3ff3ac0e25b117683c546eb3790e4ca0 = $(`<div id="html_3ff3ac0e25b117683c546eb3790e4ca0" style="width: 100.0%; height: 100.0%;">City: Granada<br>Admin Name: Andalusia<br>Population: 230595</div>`)[0];
+                popup_1471df85383291ed3513c89d7011fce8.setContent(html_3ff3ac0e25b117683c546eb3790e4ca0);
+            
+        
+
+        circle_marker_b327ac9080f4bf8dbec0cfc67bfb81cb.bindPopup(popup_1471df85383291ed3513c89d7011fce8)
+        ;
+
+        
+    
+    
+            var circle_marker_7a41301919f55baecc997ea58c83be5d = L.circleMarker(
+                [35.3, -2.95],
+                {"bubblingMouseEvents": true, "color": "yellow", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "yellow", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_40720ba250453167cc5060df5178125f);
+        
+    
+        var popup_9712a8679818452e224976f524dba40c = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_3c8a12e5772383c35d659f023332dd56 = $(`<div id="html_3c8a12e5772383c35d659f023332dd56" style="width: 100.0%; height: 100.0%;">City: Ciudad de Melilla<br>Admin Name: Melilla<br>Population: 86261</div>`)[0];
+                popup_9712a8679818452e224976f524dba40c.setContent(html_3c8a12e5772383c35d659f023332dd56);
+            
+        
+
+        circle_marker_7a41301919f55baecc997ea58c83be5d.bindPopup(popup_9712a8679818452e224976f524dba40c)
+        ;
+
+        
+    
+    
+            var circle_marker_53c6abf28b52d5c38eaf0d4da9b9d0ff = L.circleMarker(
+                [36.7167, -4.2833],
+                {"bubblingMouseEvents": true, "color": "yellow", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "yellow", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_40720ba250453167cc5060df5178125f);
+        
+    
+        var popup_c61901baa225d5def03efe10ccd4f710 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_3daab1f0576070dcb82741e2db8aaffc = $(`<div id="html_3daab1f0576070dcb82741e2db8aaffc" style="width: 100.0%; height: 100.0%;">City: Rincón de la Victoria<br>Admin Name: Andalusia<br>Population: 51300</div>`)[0];
+                popup_c61901baa225d5def03efe10ccd4f710.setContent(html_3daab1f0576070dcb82741e2db8aaffc);
+            
+        
+
+        circle_marker_53c6abf28b52d5c38eaf0d4da9b9d0ff.bindPopup(popup_c61901baa225d5def03efe10ccd4f710)
+        ;
+
+        
+    
+    
+            var circle_marker_8313849e535446add81712d6763ed365 = L.circleMarker(
+                [37.15, -3.6167],
+                {"bubblingMouseEvents": true, "color": "yellow", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "yellow", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_40720ba250453167cc5060df5178125f);
+        
+    
+        var popup_d926580a1943ff0651241a3104bba7c8 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_cb0ad7040f8be1dc6712f36a9d075928 = $(`<div id="html_cb0ad7040f8be1dc6712f36a9d075928" style="width: 100.0%; height: 100.0%;">City: Armilla<br>Admin Name: Andalusia<br>Population: 25059</div>`)[0];
+                popup_d926580a1943ff0651241a3104bba7c8.setContent(html_cb0ad7040f8be1dc6712f36a9d075928);
+            
+        
+
+        circle_marker_8313849e535446add81712d6763ed365.bindPopup(popup_d926580a1943ff0651241a3104bba7c8)
+        ;
+
+        
+    
+    
+            var circle_marker_905972f6f77f48c7778553ca79da5113 = L.circleMarker(
+                [37.2, -3.6333],
+                {"bubblingMouseEvents": true, "color": "yellow", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "yellow", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_40720ba250453167cc5060df5178125f);
+        
+    
+        var popup_d3913eb3a83794eb7acf695a183f7f41 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_0d5c218fe608cd228e6a56dbfe8eeb1d = $(`<div id="html_0d5c218fe608cd228e6a56dbfe8eeb1d" style="width: 100.0%; height: 100.0%;">City: Maracena<br>Admin Name: Andalusia<br>Population: 22275</div>`)[0];
+                popup_d3913eb3a83794eb7acf695a183f7f41.setContent(html_0d5c218fe608cd228e6a56dbfe8eeb1d);
+            
+        
+
+        circle_marker_905972f6f77f48c7778553ca79da5113.bindPopup(popup_d3913eb3a83794eb7acf695a183f7f41)
+        ;
+
+        
+    
+    
+            var circle_marker_4b398890f47158aee09bb99bf7ba1fc6 = L.circleMarker(
+                [37.15, -3.65],
+                {"bubblingMouseEvents": true, "color": "yellow", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "yellow", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_40720ba250453167cc5060df5178125f);
+        
+    
+        var popup_34f9047610b3f6dca5f28833d37e8053 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_60af845bd08b064df7d67bf196ef7e41 = $(`<div id="html_60af845bd08b064df7d67bf196ef7e41" style="width: 100.0%; height: 100.0%;">City: Churriana de la Vega<br>Admin Name: Andalusia<br>Population: 16445</div>`)[0];
+                popup_34f9047610b3f6dca5f28833d37e8053.setContent(html_60af845bd08b064df7d67bf196ef7e41);
+            
+        
+
+        circle_marker_4b398890f47158aee09bb99bf7ba1fc6.bindPopup(popup_34f9047610b3f6dca5f28833d37e8053)
+        ;
+
+        
+    
+    
+            var circle_marker_752bc6f49d771554efdc1957aa4ca1f7 = L.circleMarker(
+                [37.1167, -3.6],
+                {"bubblingMouseEvents": true, "color": "yellow", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "yellow", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_40720ba250453167cc5060df5178125f);
+        
+    
+        var popup_47c6ea3358ce53a3e9c83ff6627975dd = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_924f0a16662892a60ee21baeb040dc02 = $(`<div id="html_924f0a16662892a60ee21baeb040dc02" style="width: 100.0%; height: 100.0%;">City: Ogíjares<br>Admin Name: Andalusia<br>Population: 14803</div>`)[0];
+                popup_47c6ea3358ce53a3e9c83ff6627975dd.setContent(html_924f0a16662892a60ee21baeb040dc02);
+            
+        
+
+        circle_marker_752bc6f49d771554efdc1957aa4ca1f7.bindPopup(popup_47c6ea3358ce53a3e9c83ff6627975dd)
+        ;
+
+        
+    
+    
+            var circle_marker_a43cd28c431dcc886df6a12f228fde3e = L.circleMarker(
+                [37.15, -3.5667],
+                {"bubblingMouseEvents": true, "color": "yellow", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "yellow", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_40720ba250453167cc5060df5178125f);
+        
+    
+        var popup_0f1eb16ef99c369823398de0c8b2b222 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_20044f5d132b7d77dd6fd46f3dbe307e = $(`<div id="html_20044f5d132b7d77dd6fd46f3dbe307e" style="width: 100.0%; height: 100.0%;">City: Huétor Vega<br>Admin Name: Andalusia<br>Population: 12159</div>`)[0];
+                popup_0f1eb16ef99c369823398de0c8b2b222.setContent(html_20044f5d132b7d77dd6fd46f3dbe307e);
+            
+        
+
+        circle_marker_a43cd28c431dcc886df6a12f228fde3e.bindPopup(popup_0f1eb16ef99c369823398de0c8b2b222)
+        ;
+
+        
+    
+    
+            var circle_marker_f31a1ca560665604249ceb3a886b87b7 = L.circleMarker(
+                [37.2333, -3.6333],
+                {"bubblingMouseEvents": true, "color": "yellow", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "yellow", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_40720ba250453167cc5060df5178125f);
+        
+    
+        var popup_39f03ec4ed906127d213bf6dfdb782a6 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_47ab5cf818bb9151902475bb12d72608 = $(`<div id="html_47ab5cf818bb9151902475bb12d72608" style="width: 100.0%; height: 100.0%;">City: Peligros<br>Admin Name: Andalusia<br>Population: 11676</div>`)[0];
+                popup_39f03ec4ed906127d213bf6dfdb782a6.setContent(html_47ab5cf818bb9151902475bb12d72608);
+            
+        
+
+        circle_marker_f31a1ca560665604249ceb3a886b87b7.bindPopup(popup_39f03ec4ed906127d213bf6dfdb782a6)
+        ;
+
+        
+    
+    
+            var circle_marker_f358ec97745f622d4f297b77b98c3bad = L.circleMarker(
+                [37.1531, -3.6706],
+                {"bubblingMouseEvents": true, "color": "yellow", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "yellow", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_40720ba250453167cc5060df5178125f);
+        
+    
+        var popup_6b16c52afe480660ef64766c9cacd7a8 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_1a39170320d24df65b1df92c60f345ef = $(`<div id="html_1a39170320d24df65b1df92c60f345ef" style="width: 100.0%; height: 100.0%;">City: Cúllar-Vega<br>Admin Name: Andalusia<br>Population: 7770</div>`)[0];
+                popup_6b16c52afe480660ef64766c9cacd7a8.setContent(html_1a39170320d24df65b1df92c60f345ef);
+            
+        
+
+        circle_marker_f358ec97745f622d4f297b77b98c3bad.bindPopup(popup_6b16c52afe480660ef64766c9cacd7a8)
+        ;
+
+        
+    
+    
+            var circle_marker_d4d95fc9b64a2966311b3e598d3e746c = L.circleMarker(
+                [37.1333, -3.5667],
+                {"bubblingMouseEvents": true, "color": "yellow", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "yellow", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_40720ba250453167cc5060df5178125f);
+        
+    
+        var popup_02781a85076644b0ef1dfa5756eaf393 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_c5c3d132164094d67afdc29548cfffca = $(`<div id="html_c5c3d132164094d67afdc29548cfffca" style="width: 100.0%; height: 100.0%;">City: Cájar<br>Admin Name: Andalusia<br>Population: 5447</div>`)[0];
+                popup_02781a85076644b0ef1dfa5756eaf393.setContent(html_c5c3d132164094d67afdc29548cfffca);
+            
+        
+
+        circle_marker_d4d95fc9b64a2966311b3e598d3e746c.bindPopup(popup_02781a85076644b0ef1dfa5756eaf393)
+        ;
+
+        
+    
+    
+            var circle_marker_2c2613c6b8546582bed6679e8075e39c = L.circleMarker(
+                [37.2167, -3.6],
+                {"bubblingMouseEvents": true, "color": "yellow", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "yellow", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_40720ba250453167cc5060df5178125f);
+        
+    
+        var popup_b3d140406d7261f853645a71f9fd28cc = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_11c71df391ec1090ce3bbd80aa05e52e = $(`<div id="html_11c71df391ec1090ce3bbd80aa05e52e" style="width: 100.0%; height: 100.0%;">City: Jun<br>Admin Name: Andalusia<br>Population: 4061</div>`)[0];
+                popup_b3d140406d7261f853645a71f9fd28cc.setContent(html_11c71df391ec1090ce3bbd80aa05e52e);
+            
+        
+
+        circle_marker_2c2613c6b8546582bed6679e8075e39c.bindPopup(popup_b3d140406d7261f853645a71f9fd28cc)
+        ;
+
+        
+    
+    
+            var circle_marker_3eec4f593987fbea81df6e225e932f0c = L.circleMarker(
+                [31.058, -8.3847],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 3}
+            ).addTo(map_40720ba250453167cc5060df5178125f);
+        
+    
+        var popup_5cd3f4382bc0345edfb556f4aae912de = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_aa67faaf73e6006da1e82f3ab5a14df0 = $(`<div id="html_aa67faaf73e6006da1e82f3ab5a14df0" style="width: 100.0%; height: 100.0%;">Magnitude: 6.8<br>Location: Al Haouz, Morocco</div>`)[0];
+                popup_5cd3f4382bc0345edfb556f4aae912de.setContent(html_aa67faaf73e6006da1e82f3ab5a14df0);
+            
+        
+
+        circle_marker_3eec4f593987fbea81df6e225e932f0c.bindPopup(popup_5cd3f4382bc0345edfb556f4aae912de)
+        ;
+
+        
+    
+    
+            var circle_marker_4b12b71082f00130744c12410b762eae = L.circleMarker(
+                [35.6493, -3.6818],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 3}
+            ).addTo(map_40720ba250453167cc5060df5178125f);
+        
+    
+        var popup_f99ccddc28e2b4ae3cad422cc1c349db = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_74f770cba699315527dd0ee3bf51bc50 = $(`<div id="html_74f770cba699315527dd0ee3bf51bc50" style="width: 100.0%; height: 100.0%;">Magnitude: 6.3<br>Location: 49 km NNE of Al Hoceïma, Morocco</div>`)[0];
+                popup_f99ccddc28e2b4ae3cad422cc1c349db.setContent(html_74f770cba699315527dd0ee3bf51bc50);
+            
+        
+
+        circle_marker_4b12b71082f00130744c12410b762eae.bindPopup(popup_f99ccddc28e2b4ae3cad422cc1c349db)
+        ;
+
+        
+    
+    
+            var circle_marker_540b31c5ccc0575699d74b12e16b8eac = L.circleMarker(
+                [36.965, -3.542],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 3}
+            ).addTo(map_40720ba250453167cc5060df5178125f);
+        
+    
+        var popup_d855bd8380a59e232583feae715e34fa = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_dd472790245dfff6463573cc32dcf085 = $(`<div id="html_dd472790245dfff6463573cc32dcf085" style="width: 100.0%; height: 100.0%;">Magnitude: 6.3<br>Location: 1 km S of Nigüelas, Spain</div>`)[0];
+                popup_d855bd8380a59e232583feae715e34fa.setContent(html_dd472790245dfff6463573cc32dcf085);
+            
+        
+
+        circle_marker_540b31c5ccc0575699d74b12e16b8eac.bindPopup(popup_d855bd8380a59e232583feae715e34fa)
+        ;
+
+        
+    
+</script>
+</html>
